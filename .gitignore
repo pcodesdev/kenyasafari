@@ -1,5 +1,3 @@
-# Ignore node_modules folder
+# Ignore node_modules folder and API Secret Keys
 node_modules
-
-# Ignore files related to API keys
-config.env
+.env
