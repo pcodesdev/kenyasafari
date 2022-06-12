@@ -193,3 +193,28 @@ exports.updatePassword = catchAsync(async (req, res, next) => {
 });
 
 // NEXT: Implementing Rate Limiting
+// ---------------------------------
+// Data modelling entails taking unstructured data and model into a logical way.
+// Types of relationships between data:
+// 1. 1: 1
+// 2. 1: many
+// 3. Many:Many
+// REFERENCING VS EMBEDDING🧮
+// NOTE We reference data using data ID
+// NOTE EMBEDDING data entails having all the data in one main document
+// When to embedde or reference data
+// 1. Relation type
+// 2. Data accessing patterns
+// 3. Data closeness
+// TYPES OF REFERENCING
+// 1. Child Referencing
+// 2. Parent Referencing
+// 3. Two Way Referencing
+
+// NOTE  1. The most important principle is: Structure you data to match the way that your application queries and updates data:
+// NOTE 2. In general always favor embedding, unless there is a good reason not to embed.
+// NOTE 3. A 1:TON or a MANY:MANY relationship is usaully a good reason to reference instead of embedding
+// NOTE 4. Also favor referencing when data is updated a lot and if you need to freequently access a dataset on its own
+// NOTE 5. Use embedding when data is mostly read but rarely updated, and when two datasets belong instrinsically together
+//NOTE 6. Don't allow arrays to grow indefinitely. Therefore, if you need to normalize, use child referencing for 1:MANY relationships,and parent referencing for 1:TON relationships
+// NOTE  7. Use two-way referencing for MANY:MANY relationships
