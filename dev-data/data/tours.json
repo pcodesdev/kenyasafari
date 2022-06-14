@@ -1,10 +1,10 @@
 [
   {
     "startLocation": {
-      "description": "Miami, USA",
+      "description": "Nairobi National Park",
       "type": "Point",
-      "coordinates": [-80.185942, 25.774772],
-      "address": "301 Biscayne Blvd, Miami, FL 33132, USA"
+      "coordinates": [-1.2743517419769592, 36.86584517341749],
+      "address": "PVC2+F7H, General Waruingi Street, Nairobi"
     },
     "ratingsAverage": 4.8,
     "ratingsQuantity": 6,
@@ -20,8 +20,8 @@
     "maxGroupSize": 15,
     "difficulty": "medium",
     "guides": ["5c8a22c62f8fb814b56fa18b", "5c8a1f4e2f8fb814b56fa185"],
-    "price": 497,
-    "summary": "Exploring the jaw-dropping US east coast by foot and by boat",
+    "price": 15000,
+    "summary": "Exploring the jaw-dropping Nairobi National Park",
     "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "imageCover": "tour-2-cover.jpg",
     "locations": [
@@ -29,7 +29,7 @@
         "_id": "5c88fa8cf4afda39709c2959",
         "description": "Lummus Park Beach",
         "type": "Point",
-        "coordinates": [-80.128473, 25.781842],
+        "coordinates": [-1.2743517419769592, 36.86584517341749],
         "day": 1
       },
       {
@@ -57,10 +57,10 @@
   },
   {
     "startLocation": {
-      "description": "Banff, CAN",
+      "description": "Nairobi Museum",
       "type": "Point",
-      "coordinates": [-115.570154, 51.178456],
-      "address": "224 Banff Ave, Banff, AB, Canada"
+      "coordinates": [-1.2727178286045968, 36.81371249806806],
+      "address": "PRG7+RGM, Nairobi City"
     },
     "ratingsAverage": 5,
     "ratingsQuantity": 9,
@@ -81,7 +81,7 @@
       "5c8a1f292f8fb814b56fa184"
     ],
     "price": 397,
-    "summary": "Breathtaking hike through the Canadian Banff National Park",
+    "summary": "Breathtaking hike through the Nairobi Museum",
     "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "imageCover": "tour-1-cover.jpg",
     "locations": [
@@ -89,7 +89,7 @@
         "_id": "5c88fa8cf4afda39709c2954",
         "description": "Banff National Park",
         "type": "Point",
-        "coordinates": [-116.214531, 51.417611],
+        "coordinates": [-1.2727178286045968, 36.81371249806806],
         "day": 1
       },
       {

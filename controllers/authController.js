@@ -218,3 +218,5 @@ exports.updatePassword = catchAsync(async (req, res, next) => {
 // NOTE 5. Use embedding when data is mostly read but rarely updated, and when two datasets belong instrinsically together
 //NOTE 6. Don't allow arrays to grow indefinitely. Therefore, if you need to normalize, use child referencing for 1:MANY relationships,and parent referencing for 1:TON relationships
 // NOTE  7. Use two-way referencing for MANY:MANY relationships
+
+// TODO Modelling Geospatial Data
