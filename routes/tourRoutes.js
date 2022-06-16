@@ -3,9 +3,27 @@ const express = require('express');
 const tourController = require('../controllers/tourController');
 const authController = require('../controllers/authController');
 
+const reviewRouter = require('./reviewRoutes');
+
 const router = express.Router();
 
 // router.param('id', tourController.checkID);
+
+// NOTE
+// >>>nested routes example
+// POST /tour/23353jk/review
+// GET /tour/23353jk/review
+// GET /tour/23353jk/review/2e823ujwi2u
+// router
+//   .route('/:tourId/reviews')
+//   .post(
+//     authController.protect,
+//     authController.restrictTo('user'),
+//     reviewController.createReview
+//   );
+
+router.use('/:tourId/reviews', reviewRouter);
+
 router
   .route('/top-5-tours')
   .get(tourController.aliasTopTours, tourController.getAllTours);
