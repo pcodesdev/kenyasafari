@@ -1,2 +1,2 @@
 // TODO
-// Next adding a me end point
+// Next adding missing authentication and authorization
