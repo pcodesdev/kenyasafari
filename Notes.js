@@ -5,3 +5,5 @@
 
 // TODO
 // Calculating Avg ratings on Tour part 2
+// TODO
+// Section 12
